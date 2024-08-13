@@ -1,11 +1,11 @@
 .img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
-  aspect-ratio: 3/2;
 }
 
-.item {
-  position: relative;
+.figure {
+  height: 100%;
 }
 
 .caption {
@@ -21,7 +21,7 @@
   transition: 0.1s;
 }
 
-.item:hover .caption {
+.figure:hover .caption {
   transform: translateY(0);
   opacity: 1;
 }
@@ -29,5 +29,9 @@
 .username {
   flex: 1;
   display: flex;
+  flex-wrap: wrap;
   justify-content: end;
+  text-align: right;
+  padding: 3px;
+  padding-left: 8px;
 }

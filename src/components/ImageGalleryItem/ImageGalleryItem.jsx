@@ -6,7 +6,7 @@ import s from "./ImageGalleryItem.module.css";
 const ImageGalleryItem = ({ urls, desc, likes, userName, openModal }) => {
   return (
     <figure
-      className={s.item}
+      className={s.figure}
       data-url={urls.regular}
       data-desc={desc}
       onClick={(e) => openModal(e)}
