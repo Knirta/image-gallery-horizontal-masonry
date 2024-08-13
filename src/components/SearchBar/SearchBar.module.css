@@ -1,0 +1,40 @@
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(17 102 242);
+}
+
+.form {
+  display: flex;
+  flex: auto 1 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 769px) {
+  .form {
+    flex: 600px 0 0;
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: none;
+  flex-basis: 45px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.input {
+  flex: auto 1 0;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
